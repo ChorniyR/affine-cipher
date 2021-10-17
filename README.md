@@ -3,11 +3,30 @@
 
 # Short documentation
 
-    **encrypt()** method encrypts a string by Affine Chipher. 
-    Also deletes special symboles like '!', '.', '<', '>', '_', '#', '-'
-    Replaces sapaces with 'XMEZERAX
+<h3> encrypt(text, a, b) </h3>
+This method encrypts a string by Affine Chipher. 
+Also deletes special symboles like '!', '.', '<', '>', '_', '#', '-'.
+Replaces spaces with 'XMEZERAX'
     
-    
+<p>text: text that should be encrypted.</p>
+<p>a, b: coefficients.</p>
+returns: the encrypted text.
+  
+<h3> decrypt(text, a, b) </h3>
+
+This method decrypts a string by Affine Chipher. 
+<p>
+text: text that should be decrypted.
+</p>
+
+<p>
+a, b: coefficients.
+</p>
+
+<p>
+returns: the decrypted text.
+</p>
+
 
 
 # Usage 
