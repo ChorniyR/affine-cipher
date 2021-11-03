@@ -1,4 +1,4 @@
-# affine-cipher
+# affine-chipher
     Python module, that ensure text encrypting and decrypting by affine cipher.   
 
 # Short documentation
